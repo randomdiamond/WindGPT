@@ -1,0 +1,17 @@
+# Virtual env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Test cache
+pytest_cache/
+
+# Editor
+.idea/
+
+

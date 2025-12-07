@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siedlung C"
+      },
+      "geometry": {
+        "coordinates": [
+          10.230617972923199,
+          52.47658899077041
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siedlung B"
+      },
+      "geometry": {
+        "coordinates": [
+          10.178409866681363,
+          52.49718118403868
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siedlung A"
+      },
+      "geometry": {
+        "coordinates": [
+          10.196929570921554,
+          52.49723864291582
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stadt"
+      },
+      "geometry": {
+        "coordinates": [
+          10.205372091192174,
+          52.46971310159714
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    }
+  ]
+}

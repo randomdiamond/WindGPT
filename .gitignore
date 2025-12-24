@@ -14,4 +14,7 @@ pytest_cache/
 # Editor
 .idea/
 
+# Data
+data/raw
+data/processed
 

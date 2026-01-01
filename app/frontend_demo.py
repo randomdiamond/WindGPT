@@ -13,12 +13,12 @@ if st.button("Standort bewerten"):
             payload = {
                 "site_geojson": geojson_data
             }
-            with st.spinner("Analysiere Geometrie"):
+            with st.spinner("Analysiere Standort"):
                 resp = requests.post(
                     f"{BACKEND_URL}/api/evaluate",
                     json=payload,
                     timeout=60,
-                )git
+                )
 
             if resp.status_code == 200:
                 data = resp.json()

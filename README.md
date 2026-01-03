@@ -11,7 +11,7 @@
 
 ## ⚡ Overview
 
-**WindGPT** is a Python-based tool designed to automate the initial "sanity check" for potential wind farm locations.
+**WindGPT** is a Python-based tool designed to automate the initial "sanity check" for potential wind farm locations in Germany.
 
 Instead of manual map measurements, the tool processes a target location (GeoJSON) through a three-step pipeline:
 

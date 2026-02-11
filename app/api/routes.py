@@ -45,7 +45,10 @@ def evaluate_site(payload: SiteEvaluationRequest):
     settlements = settlements.to_crs(TARGET_CRS)
     protected_areas = protected_areas.to_crs(TARGET_CRS)
 
-    geo_metrics = analyze_site(site_gdf, settlements, protected_areas)
+    analysis_results = analyze_site(site_gdf, settlements, protected_areas)
+    geo_metrics = analysis_results["metrics"]
+    map_data = analysis_results["map_data"]
+
     rule_results = evaluate_rules(geo_metrics)
     report = generate_report(geo_metrics, rule_results)
 
@@ -53,4 +56,5 @@ def evaluate_site(payload: SiteEvaluationRequest):
         "geo_metrics": geo_metrics,
         "rule_results": rule_results,
         "report": report,
+        "map_data": map_data
     }

@@ -156,7 +156,6 @@ if st.button("Standort bewerten"):
                 else:
                     st.warning("Keine Kartendaten vom Backend empfangen.")
 
-                st.subheader("Bericht")
                 st.write(data["report"])
 
                 col1, col2 = st.columns(2)
